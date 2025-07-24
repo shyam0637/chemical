@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghanashyam Mandal - Chemical Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #334155; /* Darker gray text */
+        }
+        .section-heading {
+            border-left: 4px solid #0ea5e9; /* Sky blue border */
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .project-item {
+            border-bottom: 1px solid #e2e8f0; /* Light gray border for separation */
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        .project-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-8 px-4 sm:px-6 lg:px-8 shadow-md rounded-b-xl">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <div class="text-center sm:text-left mb-4 sm:mb-0">
+                <h1 class="text-4xl sm:text-5xl font-extrabold mb-2">GHANASHYAM MANDAL</h1>
+                <!-- Removed "Aspiring Professional Abroad" as requested -->
+                <p class="text-xl sm:text-2xl font-light">Chemical Engineer</p>
+            </div>
+            <nav class="space-x-4">
+                <a href="#about" class="hover:underline text-lg">About</a>
+                <a href="#education" class="hover:underline text-lg">Education</a>
+                <a href="#skills" class="hover:underline text-lg">Skills</a>
+                <a href="#projects" class="hover:underline text-lg">Projects</a>
+                <a href="#experience" class="hover:underline text-lg">Experience</a>
+                <a href="#achievements" class="hover:underline text-lg">Achievements</a>
+                <a href="#contact" class="hover:underline text-lg">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+
+        <!-- About Me Section -->
+        <section id="about" class="card">
+            <h2 class="text-3xl font-bold section-heading">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                A highly motivated and analytical Chemical Engineering student at the Indian Institute of Technology, Madras, with a strong academic record and a passion for solving complex engineering challenges. Eager to apply theoretical knowledge and practical skills gained through diverse projects and leadership roles to contribute effectively in a dynamic professional environment abroad. My expertise spans computational techniques, process simulation, and data analysis, coupled with significant experience in project management and team leadership.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="card">
+            <h2 class="text-3xl font-bold section-heading">Education</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">B. Tech in Chemical Engineering</h3>
+                    <p class="text-gray-600">Indian Institute of Technology, Madras</p>
+                    <p class="text-gray-600">CGPA: 7.99/10</p>
+                    <p class="text-gray-600">Expected Graduation: 2027</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Class XII (CBSE)</h3>
+                    <p class="text-gray-600">Jawahar Navodaya Vidyalaya, Bundi</p>
+                    <p class="text-gray-600">Percentage: 90.2%</p>
+                    <p class="text-gray-600">Year: 2023</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Class X (CBSE)</h3>
+                    <p class="text-gray-600">Jawahar Navodaya Vidyalaya, Koraput</p>
+                    <p class="text-gray-600">Percentage: 93.8%</p>
+                    <p class="text-gray-600">Year: 2021</p>
+                </div>
+            </div>
+            <h3 class="text-2xl font-bold mt-6 mb-4 section-heading">Relevant Courses</h3>
+            <ul class="list-disc list-inside text-lg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                <li>Chemical Engineering Thermodynamics</li>
+                <li>Continuum Mechanics & Transport Phenomena</li>
+                <li>Computational Techniques</li>
+                <li>Fundamentals of Heat and Mass Transfer</li>
+                <li>Fluid and Particle Mechanics</li>
+                <li>Kinetics and Catalysis</li>
+                <li>Principles & Calculations in Chemical</li>
+                <li>Series and Matrices</li>
+                <li>Functions of Several Variables</li>
+                <li>Programming in Python</li>
+                <li>Principles of Economics</li>
+                <li>Engineering Mechanics</li>
+                <li>Computational Thinking</li>
+                <li>Google Data Analytics Certification</li>
+                <li>Competitive Programming Essentials*</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="card">
+            <h2 class="text-3xl font-bold section-heading">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-lg">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Programming Languages</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Tools & Software</h3>
+                    <ul class="list-disc list-inside">
+                        <li>MATLAB</li>
+                        <li>MS Office</li>
+                        <li>Aspen</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Database Management</h3>
+                    <ul class="list-disc list-inside">
+                        <li>MySQL</li>
+                        <li>BigQuery</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">AI Tools</h3>
+                    <ul class="list-disc list-inside">
+                        <li>ChatGPT</li>
+                        <li>Gemini</li>
+                        <li>Perplexity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Web Development</h3>
+                    <ul class="list-disc list-inside">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Visualization Tools</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Tableau</li>
+                        <li>Rstudio</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Libraries</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>cv2</li>
+                        <li>Mediapipe</li>
+                        <li>Pygame</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Other Skills</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Data Analytics and Visualization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="card">
+            <h2 class="text-3xl font-bold section-heading">Research and Technical Projects</h2>
+
+            <!-- Project 1: Gestural Music -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Gestural Music (Envisage)</h3>
+                <p class="text-gray-600 mb-2">Computational Programming & Process Simulation Lab</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Developed an advanced finger detection model using OpenCV and Mediapipe, capable of converting gestures to music.</li>
+                    <li>Engineered an interface by integrating Pygame MIDI with custom mappings to convert movements into musical output.</li>
+                    <li>Utilized OpenCV for real-time video capture & processing, enabling dynamic computer vision interactions & visual feedback.</li>
+                    <li>Designed a custom gesture-to-MIDI mapping system, translating dynamic finger positions into discrete musical notes.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2: Solubility of Non-polar gases in Ethylene Oxide -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Solubility of Non-polar gases in Ethylene Oxide (CH2010)</h3>
+                <p class="text-gray-600 mb-2">Chemical Engineering Thermodynamics Lab</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Investigated solubility of Nitrogen, Argon, methane, and ethane in ethylene oxide under the direction of Dr. Rajnish Kumar.</li>
+                    <li>Achieved solubility data accuracy within $\pm0.1^\circ C$, with a precision of 2.4% and error propagation between 0.2% - 3.3%.</li>
+                    <li>Utilized advanced gas chromatography techniques to measure solubility, boosting accuracy over traditional methods.</li>
+                    <li>Analyzed temperature-based solubility trends and calculated Henry's constant using thermodynamic and virial equations.</li>
+                </ul>
+            </div>
+
+            <!-- Project 3: Non-Newtonian Nanofluids for enhanced H.T -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Non-Newtonian Nanofluids for enhanced Heat Transfer (CH2012)</h3>
+                <p class="text-gray-600 mb-2">Under the direction of Dr. S. Rabha</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Investigated nanofluid temperature/velocity profiles to understand Heat Transfer Mechanism.</li>
+                    <li>Applied Power-Law Model, demonstrating a 65% utilization rate, alongside other relevant models for heat transfer analysis.</li>
+                    <li>Analyzed nanofluid heat transfer characteristics; increases with volume fraction & decreases with non-Newtonian parameters.</li>
+                    <li>Investigated diverse nanofluid applications with aim of achieving enhanced heat transfer across critical domains.</li>
+                </ul>
+            </div>
+
+            <!-- Project 4: Avalanche Flow -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Avalanche Flow (CH2015)</h3>
+                <p class="text-gray-600 mb-2">Under the direction of Dr. Sankha Karmakar</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Modeled dry avalanches using Savage-Hutter model and other models.</li>
+                    <li>Researched dry avalanches using Savage-Hutter model with nearly 85% accuracy, over different terrain profiles.</li>
+                    <li>Implemented Lagrangian scheme for analysis, reducing numerical diffusion by nearly 25% in velocity predictions.</li>
+                    <li>Tracked avalanche edge motion across five time steps; observed nearly 50% slowdown due to frictional effects.</li>
+                </ul>
+            </div>
+
+            <!-- Project 5: Interfacial Transport Phenomena -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Interfacial Transport Phenomena (CH5014)</h3>
+                <p class="text-gray-600 mb-2">Under the direction of Dr. Upendra Natrajan</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Analyzed interfacial transport via mathematical models for multiphase systems.</li>
+                    <li>Investigated interfacial instabilities such as Rayleigh-Taylor & Kelvin-Helmholtz for mixing & multi-phase transport effects.</li>
+                    <li>Employed LDA (Laser Doppler Anemometry) and high-speed imaging in fluid dynamics for rapid interfacial phenomena (thousand frames per second).</li>
+                    <li>Enhanced heat transfer and mass transfer via liquid film surface waves: increased interfacial area and turbulence.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience / Positions of Responsibility Section -->
+        <section id="experience" class="card">
+            <h2 class="text-3xl font-bold section-heading">Positions of Responsibility</h2>
+
+            <!-- E-CELL Manager -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Manager, Marketing & Public Relations (E-CELL)</h3>
+                <p class="text-gray-600 mb-2">May 2024 - March 2025</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Co-managed and executed initiatives, enhancing brand reputation & visibility via targeted campaigns & media engagement.</li>
+                    <li>Contributed to strategic planning and seamless execution of 3+ major events, coordinating five+ teams for 2,000+ audience.</li>
+                    <li>Engaged 2,000+ attendees through impactful hosting at major events, boosting brand outreach and brand visibility.</li>
+                    <li>Contributed to impactful marketing and social campaigns, increasing audience by nearly 10% across all platforms.</li>
+                </ul>
+            </div>
+
+            <!-- E-CELL Associate Manager -->
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-700">Associate Manager, Marketing & Public Relations (E-CELL)</h3>
+                <p class="text-gray-600 mb-2">November 2023 - March 2024</p>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Co-managed and executed comprehensive marketing & public relations initiatives, enhancing brand reputation & visibility.</li>
+                    <li>Streamlined and optimized critical operational workflows while actively fostering team synergy, improving team efficiency.</li>
+                    <li>Drove substantial participant engagement and maximized outreach by applying targeted marketing strategies, in the events.</li>
+                    <li>Developed and maintained effective databases, ensuring data integrity and accuracy, for strategic decision making.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Achievements & Extra-Curriculars Section -->
+        <section id="achievements" class="card">
+            <h2 class="text-3xl font-bold section-heading">Achievements & Extra-Curriculars</h2>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">Scholastic Achievements</h3>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Secured AIR 1141 in JEE Advanced 2023 (SC Category) among 180,000+ national aspirants, conducted by IIT Guwahati.</li>
+                    <li>Qualified for the highly selective Dakshana Foundation's JEE Scholars Program in 2021, securing one of ~300-350 nationwide seats from 10,000+ of applicants via the rigorous NDST (less than 2% selection rate), conducted by Dakshana.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">Leadership & Service</h3>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Led Nilgiri House as House Captain (8th Grade) to achieve 'overall champion' title, demonstrating leadership & team building.</li>
+                    <li>Ensured the fair conduct of NDST/JDST examinations for 10th/12th grade Navodaya scholars in 2024, serving as an invigilator.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">Sports</h3>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Represented the school as a Cluster level chess player (9th grade), showcasing strategic thinking and analytical skills.</li>
+                    <li>Secured the Inter-House Chess Champion title (8th grade), and became runner up (9th grade), demonstrating consistency.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">Miscellaneous</h3>
+                <ul class="list-disc list-inside text-base leading-relaxed">
+                    <li>Achieved an impressive 2nd position at Cluster Level Science Exhibition (8th Grade), successfully competing against students up to the 12th grade, & subsequently advanced to the Regional Level, highlighting strong scientific aptitude & presentation skills.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card text-center">
+            <h2 class="text-3xl font-bold section-heading inline-block">Contact</h2>
+            <p class="text-lg mt-4">I'm actively seeking opportunities in Chemical Engineering abroad. Feel free to connect!</p>
+            <div class="mt-6 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <a href="mailto:your.email@example.com" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Email Me
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" class="bg-gray-900 hover:bg-gray-950 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    GitHub
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-8">Please replace "your.email@example.com", "yourprofile" with your actual contact details and links.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center rounded-t-xl mt-8">
+        <p>&copy; 2025 Ghanashyam Mandal. All rights reserved.</p>
+        <p class="text-sm mt-2">Built with <span class="text-red-500">&hearts;</span> and Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
